@@ -1,5 +1,8 @@
-__pycache__/
-*.sqlite3
 *.log
-*.pyc
-blog/migrations/*.pyc
+*.dat
+*.ini
+__pycache__/
+db.sqlite3
+AppData/
+anaconda3/
+OneDrive/
