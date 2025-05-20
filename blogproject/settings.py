@@ -73,3 +73,6 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Додайте цей рядок, щоб усунути попередження models.W042
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
